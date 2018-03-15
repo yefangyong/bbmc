@@ -1,0 +1,79 @@
+---------------------------------------------------------------
+[ 2017-06-24T11:06:57+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=12&XDEBUG_SESSION_START=15751
+[ info ] www.problem.com/api/v1/product/recent?count=12&XDEBUG_SESSION_START=15751 [运行时间：21.484796s][吞吐率：0.05req/s] [内存消耗：2,647.26kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002358s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.056692s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time`  desc LIMIT 12 [ RunTime:0.002235s ]
+---------------------------------------------------------------
+[ 2017-06-24T11:09:07+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=12&XDEBUG_SESSION_START=15751
+[ info ] www.problem.com/api/v1/product/recent?count=12&XDEBUG_SESSION_START=15751 [运行时间：36.581064s][吞吐率：0.03req/s] [内存消耗：2,711.95kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001614s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008138s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time`  desc LIMIT 12 [ RunTime:0.000884s ]
+---------------------------------------------------------------
+[ 2017-06-24T11:11:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=12&XDEBUG_SESSION_START=15751
+[ info ] www.problem.com/api/v1/product/recent?count=12&XDEBUG_SESSION_START=15751 [运行时间：0.239239s][吞吐率：4.18req/s] [内存消耗：2,646.08kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001540s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.149395s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time`  desc LIMIT 12 [ RunTime:0.001544s ]
+---------------------------------------------------------------
+[ 2017-06-24T11:13:01+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=4,5,6
+[ info ] www.problem.com/api/v1/theme?ids=4,5,6 [运行时间：0.225129s][吞吐率：4.44req/s] [内存消耗：2,775.70kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001883s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.072544s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (4,5,6) [ RunTime:0.000999s ]
+---------------------------------------------------------------
+[ 2017-06-24T11:13:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=4,5,6
+[ info ] www.problem.com/api/v1/theme?ids=4,5,6 [运行时间：0.126208s][吞吐率：7.92req/s] [内存消耗：2,775.90kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001526s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.049431s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (4,5,6) [ RunTime:0.000755s ]
+---------------------------------------------------------------
+[ 2017-06-24T11:13:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=4,5,6
+[ info ] www.problem.com/api/v1/theme?ids=4,5,6 [运行时间：0.073825s][吞吐率：13.55req/s] [内存消耗：2,775.90kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001486s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.007580s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (4,5,6) [ RunTime:0.000730s ]
+---------------------------------------------------------------
+[ 2017-06-24T11:14:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=4,5,6
+[ info ] www.problem.com/api/v1/theme?ids=4,5,6 [运行时间：0.104597s][吞吐率：9.56req/s] [内存消耗：2,776.18kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001310s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.036748s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (4,5,6) [ RunTime:0.000846s ]
+---------------------------------------------------------------
+[ 2017-06-24T11:14:22+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=4,5,6
+[ info ] www.problem.com/api/v1/theme?ids=4,5,6 [运行时间：0.098664s][吞吐率：10.14req/s] [内存消耗：2,776.18kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001476s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.039476s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (4,5,6) [ RunTime:0.001128s ]
+---------------------------------------------------------------
+[ 2017-06-24T11:15:05+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ info ] www.problem.com/api/v1/theme?ids=1,2,3 [运行时间：0.152715s][吞吐率：6.55req/s] [内存消耗：2,786.49kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001484s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.007899s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.058352s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2017-06-24T12:19:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ info ] www.problem.com/api/v1/category/all [运行时间：0.206570s][吞吐率：4.84req/s] [内存消耗：2,553.99kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001647s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.098861s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.011988s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000907s ]
+---------------------------------------------------------------
+[ 2017-06-24T12:23:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ info ] www.problem.com/api/v1/category/all [运行时间：0.238700s][吞吐率：4.19req/s] [内存消耗：2,555.00kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001524s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.107477s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.026706s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001262s ]
+---------------------------------------------------------------
+[ 2017-06-24T13:10:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/by_category?id=3
+[ info ] www.problem.com/api/v1/product/by_category?id=3 [运行时间：0.171111s][吞吐率：5.84req/s] [内存消耗：2,651.84kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001454s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.092782s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 3 [ RunTime:0.001810s ]

@@ -1,0 +1,48 @@
+---------------------------------------------------------------
+[ 2017-08-14T13:54:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ info ] www.problem.com/api/v1/token/app [运行时间：0.325000s][吞吐率：3.08req/s] [内存消耗：2,393.58kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `third_app` [ RunTime:0.060000s ]
+[ sql ] [ SQL ] SELECT * FROM `third_app` WHERE  `app_id` = 'yfy'  AND `app_secret` = '8912878' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-14T13:54:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/api/v1/order/paginate?page=1&size=20 [运行时间：0.159000s][吞吐率：6.29req/s] [内存消耗：2,716.96kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-14T13:54:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/order/paginate?page=2&size=20
+[ info ] www.problem.com/api/v1/order/paginate?page=2&size=20 [运行时间：0.110000s][吞吐率：9.09req/s] [内存消耗：2,712.88kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 20,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-14T14:03:33+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/api/v1/order/paginate?page=1&size=20 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,716.96kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-14T14:03:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/api/v1/order/paginate?page=1&size=20 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,716.96kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-14T14:03:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/api/v1/order/paginate?page=1&size=20 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：2,716.96kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-14T14:04:03+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/api/v1/order/paginate?page=1&size=20 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,716.96kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]

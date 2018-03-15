@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpStepFilterConfiguration">
+    <option name="skippedFunctions">
+      <list>
+        <option value="think\Request::instance" />
+        <option value="app\api\validate\BaseValidate-&gt;goCheck" />
+        <option value="app\api\controller\v1\Banner-&gt;getBanner" />
+        <option value="think\App::exec" />
+        <option value="think\App::run" />
+        <option value="think\Response-&gt;send" />
+        <option value="think\Error::appShutdown" />
+        <option value="think\db\Connection-&gt;__destruct" />
+      </list>
+    </option>
+  </component>
+</project>

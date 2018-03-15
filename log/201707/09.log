@@ -1,0 +1,19 @@
+---------------------------------------------------------------
+[ 2017-07-09T12:28:11+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] www.problem.com/api/v1/token/user [运行时间：0.762005s][吞吐率：1.31req/s] [内存消耗：2,732.71kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013463s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.032286s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oVZHv0D5u6ovlokgx0-gYJroSxD4' LIMIT 1 [ RunTime:0.001282s ]
+---------------------------------------------------------------
+[ 2017-07-09T12:28:16+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=15742
+[ info ] www.problem.com/api/v1/order?XDEBUG_SESSION_START=15742 [运行时间：0.658597s][吞吐率：1.52req/s] [内存消耗：3,270.41kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002028s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.050899s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.047169s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.022563s ]
+[ sql ] [ SQL ] INSERT INTO `order` (`user_id` , `order_no` , `total_price` , `total_count` , `snap_img` , `snap_address` , `snap_name` , `snap_items` , `create_time` , `update_time`) VALUES (2 , 'A709744960082069' , 0.05 , 5 , 'www.problem.com/images/product-vg@1.png' , '{\"id\":1,\"name\":\"yfyjsz\",\"mobile\":\"13053112897\",\"province\":\"\\u5b89\\u5fbd\",\"city\":\"\\u516d\\u5b89\",\"country\":\"\\u868c\\u57e0\",\"detail\":\"\\u5b89\\u5fbd\\u7701\\u868c\\u57e0\\u5e02\",\"delete_time\":null,\"user_id\":2,\"update_time\":\"1970-01-01 08:00:00\"}' , '芹菜 半斤等' , '[{\"id\":1,\"haveStock\":true,\"count\":2,\"name\":\"\\u82b9\\u83dc \\u534a\\u65a4\",\"totalPrice\":0.02},{\"id\":2,\"haveStock\":true,\"count\":3,\"name\":\"\\u68a8\\u82b1\\u5e26\\u96e8 3\\u4e2a\",\"totalPrice\":0.03}]' , 1499574496 , 1499574496) [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.009575s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (1 , 2 , 27) [ RunTime:0.000728s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (2 , 3 , 27) [ RunTime:0.000496s ]

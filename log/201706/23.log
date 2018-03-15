@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2017-06-23T20:50:06+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recent?count=12
+[ info ] www.problem.com/api/v1/product/recent?count=12 [运行时间：0.525533s][吞吐率：1.90req/s] [内存消耗：2,582.33kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034604s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.106794s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time`  desc LIMIT 12 [ RunTime:0.000890s ]

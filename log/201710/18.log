@@ -1,0 +1,1216 @@
+---------------------------------------------------------------
+[ 2017-10-18T12:55:51+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.189000s][吞吐率：5.29req/s] [内存消耗：2,537.22kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T12:56:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.163000s][吞吐率：6.13req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T12:58:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.216000s][吞吐率：4.63req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T12:58:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.133000s][吞吐率：7.52req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T12:59:20+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.226000s][吞吐率：4.42req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T12:59:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.192000s][吞吐率：5.21req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T12:59:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.180000s][吞吐率：5.56req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:00:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.179000s][吞吐率：5.59req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:02:20+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.190000s][吞吐率：5.26req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:02:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.140000s][吞吐率：7.14req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:02:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.179000s][吞吐率：5.59req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:03:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.169000s][吞吐率：5.92req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:03:57+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.161000s][吞吐率：6.21req/s] [内存消耗：2,545.73kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:04:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.172000s][吞吐率：5.81req/s] [内存消耗：2,545.84kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:06:05+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.182000s][吞吐率：5.49req/s] [内存消耗：2,545.63kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:06:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.168000s][吞吐率：5.95req/s] [内存消耗：2,545.63kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:32:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.219000s][吞吐率：4.57req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:34:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.183000s][吞吐率：5.46req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:34:33+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.195000s][吞吐率：5.13req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:35:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.160000s][吞吐率：6.25req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:35:40+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.168000s][吞吐率：5.95req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:36:19+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.187000s][吞吐率：5.35req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:37:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.190000s][吞吐率：5.26req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:37:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.181000s][吞吐率：5.52req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:38:58+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.174000s][吞吐率：5.75req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:39:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.173000s][吞吐率：5.78req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:39:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.191000s][吞吐率：5.24req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:39:58+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.182000s][吞吐率：5.49req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:40:07+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.206000s][吞吐率：4.85req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:41:15+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.161000s][吞吐率：6.21req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:42:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.199000s][吞吐率：5.03req/s] [内存消耗：2,549.27kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T13:47:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.203000s][吞吐率：4.93req/s] [内存消耗：2,549.55kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T14:43:19+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.183000s][吞吐率：5.46req/s] [内存消耗：2,555.92kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T14:43:57+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.171000s][吞吐率：5.85req/s] [内存消耗：2,555.92kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T14:44:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.194000s][吞吐率：5.15req/s] [内存消耗：2,555.92kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T14:45:24+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.176000s][吞吐率：5.68req/s] [内存消耗：2,555.92kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T14:45:57+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.200000s][吞吐率：5.00req/s] [内存消耗：2,555.92kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T14:58:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.160000s][吞吐率：6.25req/s] [内存消耗：2,603.16kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '8912878yfy' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T14:59:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.062000s][吞吐率：16.13req/s] [内存消耗：2,603.17kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '8912878yfy' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T14:59:51+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.188000s][吞吐率：5.32req/s] [内存消耗：2,557.03kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:00:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.151000s][吞吐率：6.62req/s] [内存消耗：2,555.60kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:01:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.173000s][吞吐率：5.78req/s] [内存消耗：2,555.60kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:02:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,467.26kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '45454'  AND `passwd` = '5451' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:02:53+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：2,467.26kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '45454'  AND `passwd` = '5451' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:03:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.087000s][吞吐率：11.49req/s] [内存消耗：2,647.81kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '8912878yfy' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:03:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.198000s][吞吐率：5.05req/s] [内存消耗：2,557.15kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:04:59+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.174000s][吞吐率：5.75req/s] [内存消耗：2,555.72kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:06:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：2,427.70kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '8912878yfy' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:06:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.175000s][吞吐率：5.71req/s] [内存消耗：2,772.56kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:14:46+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.207000s][吞吐率：4.83req/s] [内存消耗：2,671.75kb] [文件加载：56]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:15:07+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.070000s][吞吐率：14.29req/s] [内存消耗：2,427.70kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '8912878yfy' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:15:07+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.170000s][吞吐率：5.88req/s] [内存消耗：2,772.58kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:16:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.177000s][吞吐率：5.65req/s] [内存消耗：2,674.70kb] [文件加载：56]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:16:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,351.42kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '8912878' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:16:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：2,427.84kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '8912878yfy' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:16:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.218000s][吞吐率：4.59req/s] [内存消耗：2,824.31kb] [文件加载：60]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:30:10+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.170000s][吞吐率：5.88req/s] [内存消耗：2,680.45kb] [文件加载：56]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:30:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：2,428.02kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '8912878yfy' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:30:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.273000s][吞吐率：3.66req/s] [内存消耗：2,941.67kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:37:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.238000s][吞吐率：4.20req/s] [内存消耗：2,941.67kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:37:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.223000s][吞吐率：4.48req/s] [内存消耗：2,941.67kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:38:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.272000s][吞吐率：3.68req/s] [内存消耗：2,941.67kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:40:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.178000s][吞吐率：5.62req/s] [内存消耗：2,680.59kb] [文件加载：56]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:40:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：2,428.17kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '8912878yfy' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:40:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.256000s][吞吐率：3.91req/s] [内存消耗：2,941.86kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:42:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.216000s][吞吐率：4.63req/s] [内存消耗：2,680.78kb] [文件加载：56]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:42:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,428.32kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '123' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:42:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.239000s][吞吐率：4.18req/s] [内存消耗：2,942.03kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:45:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.239000s][吞吐率：4.18req/s] [内存消耗：2,942.03kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:45:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.184000s][吞吐率：5.43req/s] [内存消耗：2,680.78kb] [文件加载：56]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:45:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,428.32kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '123' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:45:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.205000s][吞吐率：4.88req/s] [内存消耗：2,942.03kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:52:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.163000s][吞吐率：6.13req/s] [内存消耗：2,713.33kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:53:07+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,429.27kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '123' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:53:07+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.236000s][吞吐率：4.24req/s] [内存消耗：2,980.47kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:55:06+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.236000s][吞吐率：4.24req/s] [内存消耗：2,980.47kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T15:55:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.250000s][吞吐率：4.00req/s] [内存消耗：2,980.47kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T16:11:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.268000s][吞吐率：3.73req/s] [内存消耗：2,980.47kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T16:11:18+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.250000s][吞吐率：4.00req/s] [内存消耗：2,980.47kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T16:18:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：1.251000s][吞吐率：0.80req/s] [内存消耗：2,980.47kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T16:21:34+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.415042s][吞吐率：2.41req/s] [内存消耗：2,980.47kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011002s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T17:50:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.205000s][吞吐率：4.88req/s] [内存消耗：2,719.91kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T17:50:34+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/bind
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/bind [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：2,435.96kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `uid` = '114110'  AND `passwd` = '123' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `student`  SET `openid`='oFTge0eFEsmQfcID2dv64T3TVbuY',`is_bind`=1  WHERE  `id` = 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T17:50:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.243000s][吞吐率：4.12req/s] [内存消耗：2,987.13kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T19:10:05+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.273000s][吞吐率：3.66req/s] [内存消耗：2,987.13kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T20:35:53+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.252000s][吞吐率：3.97req/s] [内存消耗：2,987.13kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T20:40:13+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.262000s][吞吐率：3.82req/s] [内存消耗：2,987.79kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T20:40:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.243000s][吞吐率：4.12req/s] [内存消耗：2,987.79kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T20:41:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.232000s][吞吐率：4.31req/s] [内存消耗：2,987.79kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T20:41:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.302000s][吞吐率：3.31req/s] [内存消耗：2,987.79kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T20:42:57+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.249000s][吞吐率：4.02req/s] [内存消耗：2,987.79kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T20:43:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.210000s][吞吐率：4.76req/s] [内存消耗：2,987.79kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T20:46:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.259000s][吞吐率：3.86req/s] [内存消耗：2,987.79kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T20:49:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.225000s][吞吐率：4.44req/s] [内存消耗：2,987.79kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-10-18T20:50:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.232000s][吞吐率：4.31req/s] [内存消耗：2,987.79kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-10-18T20:51:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/apiv1/v1/user/getuserinfo
+[ info ] www.bbmc.com/index.php/apiv1/v1/user/getuserinfo [运行时间：0.299000s][吞吐率：3.34req/s] [内存消耗：2,987.79kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bbmc;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `openid` = 'oFTge0eFEsmQfcID2dv64T3TVbuY' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ban` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `grade` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `grade` WHERE  `id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `major` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `department` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `college` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ban` WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `major` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `department` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `college` WHERE  `id` IN (1) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `school` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `school` WHERE  `id` IN (1) [ RunTime:0.000000s ]

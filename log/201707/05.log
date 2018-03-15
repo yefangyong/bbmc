@@ -1,0 +1,86 @@
+---------------------------------------------------------------
+[ 2017-07-05T10:31:04+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] www.problem.com/api/v1/token/user [运行时间：2.075244s][吞吐率：0.48req/s] [内存消耗：1,907.51kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002826s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.038391s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oVZHv0D5u6ovlokgx0-gYJroSxD4' LIMIT 1 [ RunTime:0.000625s ]
+---------------------------------------------------------------
+[ 2017-07-05T10:31:07+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] www.problem.com/api/v1/token/user [运行时间：0.361895s][吞吐率：2.76req/s] [内存消耗：1,907.51kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003901s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015315s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oVZHv0D5u6ovlokgx0-gYJroSxD4' LIMIT 1 [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2017-07-05T10:31:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] www.problem.com/api/v1/token/user [运行时间：0.250983s][吞吐率：3.98req/s] [内存消耗：1,907.51kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004969s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.033645s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oVZHv0D5u6ovlokgx0-gYJroSxD4' LIMIT 1 [ RunTime:0.001865s ]
+---------------------------------------------------------------
+[ 2017-07-05T10:34:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] www.problem.com/api/v1/token/user [运行时间：0.281955s][吞吐率：3.55req/s] [内存消耗：1,909.14kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010532s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.025790s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oVZHv0D5u6ovlokgx0-gYJroSxD4' LIMIT 1 [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[ 2017-07-05T10:35:55+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] www.problem.com/api/v1/token/user [运行时间：0.211283s][吞吐率：4.73req/s] [内存消耗：1,909.14kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004734s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.034825s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oVZHv0D5u6ovlokgx0-gYJroSxD4' LIMIT 1 [ RunTime:0.001003s ]
+---------------------------------------------------------------
+[ 2017-07-05T10:36:03+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] www.problem.com/api/v1/token/user [运行时间：0.264925s][吞吐率：3.77req/s] [内存消耗：1,909.14kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001821s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010716s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oVZHv0D5u6ovlokgx0-gYJroSxD4' LIMIT 1 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2017-07-05T12:36:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] www.problem.com/api/v1/token/user [运行时间：2.440374s][吞吐率：0.41req/s] [内存消耗：2,728.85kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002133s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011197s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oVZHv0D5u6ovlokgx0-gYJroSxD4' LIMIT 1 [ RunTime:0.000919s ]
+---------------------------------------------------------------
+[ 2017-07-05T12:36:44+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=15454
+[ info ] www.problem.com/api/v1/order?XDEBUG_SESSION_START=15454 [运行时间：0.284782s][吞吐率：3.51req/s] [内存消耗：3,262.95kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001497s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.007480s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.008609s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007713s ]
+[ sql ] [ SQL ] INSERT INTO `order` (`user_id` , `order_no` , `total_price` , `total_count` , `snap_img` , `snap_address` , `snap_name` , `snap_items`) VALUES (1 , 'A705294041059201' , 0.02 , 2 , 'www.problem.com/images/product-vg@1.png' , '{\"id\":1,\"name\":\"yfyjsz\",\"mobile\":\"13053112897\",\"province\":\"\\u5b89\\u5fbd\",\"city\":\"\\u516d\\u5b89\",\"country\":\"\\u868c\\u57e0\",\"detail\":\"\\u5b89\\u5fbd\\u7701\\u868c\\u57e0\\u5e02\",\"delete_time\":null,\"user_id\":1,\"update_time\":\"1970-01-01 08:00:00\"}' , '芹菜 半斤等' , '[{\"id\":1,\"haveStock\":true,\"count\":1,\"name\":\"\\u82b9\\u83dc \\u534a\\u65a4\",\"totalPrice\":0.01},{\"id\":2,\"haveStock\":true,\"count\":1,\"name\":\"\\u68a8\\u82b1\\u5e26\\u96e8 3\\u4e2a\",\"totalPrice\":0.01}]') [ RunTime:0.046224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.036182s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (1 , 1 , 2) [ RunTime:0.000656s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (2 , 1 , 2) [ RunTime:0.000499s ]
+---------------------------------------------------------------
+[ 2017-07-05T12:40:07+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=15454
+[ info ] www.problem.com/api/v1/order?XDEBUG_SESSION_START=15454 [运行时间：0.142805s][吞吐率：7.00req/s] [内存消耗：3,155.06kb] [文件加载：60]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001786s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.014145s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000810s ]
+---------------------------------------------------------------
+[ 2017-07-05T12:41:40+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=15454
+[ info ] www.problem.com/api/v1/order?XDEBUG_SESSION_START=15454 [运行时间：0.113309s][吞吐率：8.83req/s] [内存消耗：3,155.06kb] [文件加载：60]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001780s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.025601s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000961s ]
+---------------------------------------------------------------
+[ 2017-07-05T12:42:26+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/order?XDEBUG_SESSION_START=15454
+[ info ] www.problem.com/api/v1/order?XDEBUG_SESSION_START=15454 [运行时间：0.274261s][吞吐率：3.65req/s] [内存消耗：3,262.95kb] [文件加载：63]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011071s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.007031s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` IN (1,2) [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.008816s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.009650s ]
+[ sql ] [ SQL ] INSERT INTO `order` (`user_id` , `order_no` , `total_price` , `total_count` , `snap_img` , `snap_address` , `snap_name` , `snap_items`) VALUES (1 , 'A705297459485674' , 0.05 , 5 , 'www.problem.com/images/product-vg@1.png' , '{\"id\":1,\"name\":\"yfyjsz\",\"mobile\":\"13053112897\",\"province\":\"\\u5b89\\u5fbd\",\"city\":\"\\u516d\\u5b89\",\"country\":\"\\u868c\\u57e0\",\"detail\":\"\\u5b89\\u5fbd\\u7701\\u868c\\u57e0\\u5e02\",\"delete_time\":null,\"user_id\":1,\"update_time\":\"1970-01-01 08:00:00\"}' , '芹菜 半斤等' , '[{\"id\":1,\"haveStock\":true,\"count\":2,\"name\":\"\\u82b9\\u83dc \\u534a\\u65a4\",\"totalPrice\":0.02},{\"id\":2,\"haveStock\":true,\"count\":3,\"name\":\"\\u68a8\\u82b1\\u5e26\\u96e8 3\\u4e2a\",\"totalPrice\":0.03}]') [ RunTime:0.051096s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.009948s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (1 , 2 , 3) [ RunTime:0.000709s ]
+[ sql ] [ SQL ] INSERT INTO `order_product` (`product_id` , `count` , `order_id`) VALUES (2 , 3 , 3) [ RunTime:0.000971s ]
+---------------------------------------------------------------
+[ 2017-07-05T14:41:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] www.problem.com/api/v1/token/user [运行时间：0.450143s][吞吐率：2.22req/s] [内存消耗：2,728.87kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005100s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016079s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oVZHv0D5u6ovlokgx0-gYJroSxD4' LIMIT 1 [ RunTime:0.001172s ]

@@ -1,0 +1,746 @@
+---------------------------------------------------------------
+[ 2017-08-29T11:32:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ info ] www.problem.com/api/v1/banner/1 [运行时间：0.110000s][吞吐率：9.09req/s] [内存消耗：2,548.48kb] [文件加载：54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T11:39:47+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ info ] www.problem.com/api/v1/token/app [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：2,393.96kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `third_app` [ RunTime:0.033000s ]
+[ sql ] [ SQL ] SELECT * FROM `third_app` WHERE  `app_id` = 'yfy'  AND `app_secret` = '8912878' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T11:41:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ info ] www.problem.com/api/v1/token/app [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：2,393.98kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `third_app` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `third_app` WHERE  `app_id` = 'yfy'  AND `app_secret` = '8912878' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T11:44:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/app
+[ info ] www.problem.com/api/v1/token/app [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：2,394.00kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `third_app` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `third_app` WHERE  `app_id` = 'yfy'  AND `app_secret` = '8912878' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T11:46:33+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/v1/token/app
+[ info ] www.problem.com/index.php/api/v1/token/app [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：2,390.97kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `third_app` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `third_app` WHERE  `app_id` = 'yfy'  AND `app_secret` = '8912878' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T12:57:29+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/v1/token/app
+[ info ] www.problem.com/index.php/api/v1/token/app [运行时间：0.068186s][吞吐率：14.67req/s] [内存消耗：2,390.59kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009882s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `third_app` [ RunTime:0.010871s ]
+[ sql ] [ SQL ] SELECT * FROM `third_app` WHERE  `app_id` = 'yfy'  AND `app_secret` = '8912878' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T12:57:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.112655s][吞吐率：8.88req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000989s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.019764s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.004941s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000988s ]
+---------------------------------------------------------------
+[ 2017-08-29T12:57:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=2&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=2&size=20 [运行时间：0.049410s][吞吐率：20.24req/s] [内存消耗：2,721.22kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.009882s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 20,20 [ RunTime:0.000988s ]
+---------------------------------------------------------------
+[ 2017-08-29T12:57:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=3&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=3&size=20 [运行时间：0.057316s][吞吐率：17.45req/s] [内存消耗：2,710.27kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009882s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.008894s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 40,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T12:57:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.053363s][吞吐率：18.74req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009882s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.009882s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:39:25+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/v1/token/app
+[ info ] www.problem.com/index.php/api/v1/token/app [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,390.59kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `third_app` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `third_app` WHERE  `app_id` = 'yfy'  AND `app_secret` = '8912878' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:39:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:42:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=2&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=2&size=20 [运行时间：0.063007s][吞吐率：15.87req/s] [内存消耗：2,721.22kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 20,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:47:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:49:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:49:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:51:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:51:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:51:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:51:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:51:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:51:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:51:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:51:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T14:51:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T15:34:06+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php/api/v1/token/app
+[ info ] www.problem.com/index.php/api/v1/token/app [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：2,390.49kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `third_app` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `third_app` WHERE  `app_id` = 'yfy'  AND `app_secret` = '8912878' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:21:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:39:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:40:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：2,736.25kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:41:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:41:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:41:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:41:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:41:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:41:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:41:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:42:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,736.25kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:42:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,736.25kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:55:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.062000s][吞吐率：16.13req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:56:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:57:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:57:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:57:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.043000s][吞吐率：23.26req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:57:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T16:59:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:00:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:01:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,736.34kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:01:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:01:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:02:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:05:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:06:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:07:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:09:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:09:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:12:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:18:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.054005s][吞吐率：18.52req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:18:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.052005s][吞吐率：19.23req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:19:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.052005s][吞吐率：19.23req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:19:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.040004s][吞吐率：25.00req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:22:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.054005s][吞吐率：18.52req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:22:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.058006s][吞吐率：17.24req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:24:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.047005s][吞吐率：21.27req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:24:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.041004s][吞吐率：24.39req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:25:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.048004s][吞吐率：20.83req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:27:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:27:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:27:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:27:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:29:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:29:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:30:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:32:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:43:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=20 [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,736.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:47:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:48:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:51:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:52:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:52:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:56:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T17:56:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:00:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:01:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:02:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:02:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:02:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:02:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:02:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:02:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:02:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:02:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:02:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:03:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:04:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:05:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.044000s][吞吐率：22.73req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:06:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:10:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:14:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:15:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=2&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=2&size=10 [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：2,723.89kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 10,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:17:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=3&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=3&size=10 [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：2,721.03kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 20,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:17:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=4&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=4&size=10 [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：2,710.18kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 30,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:18:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:18:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:34:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=2&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=2&size=10 [运行时间：0.075000s][吞吐率：13.33req/s] [内存消耗：2,723.89kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 10,10 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:39:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=2&size=20
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=2&size=20 [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：2,721.22kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 20,20 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:50:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=1&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=1&size=10 [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：2,723.86kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-08-29T18:50:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/v1/order/paginate?page=2&size=10
+[ info ] www.problem.com/index.php/api/v1/order/paginate?page=2&size=10 [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：2,723.89kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` ORDER BY create_time desc LIMIT 10,10 [ RunTime:0.001000s ]

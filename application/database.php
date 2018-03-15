@@ -13,11 +13,7 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-<<<<<<< Updated upstream
-    'hostname'        => '115.159.6.199',
-=======
     'hostname'        => 'localhost',
->>>>>>> Stashed changes
     // 数据库名
     'database'        => 'bbmc',
     // 用户名

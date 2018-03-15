@@ -29,7 +29,7 @@ class User extends Controller
         if($student) {
             return [
                 'status'=>200,
-                'time'=>$this->getDate(1504454400),//开学时间
+                'time'=>$this->getDate(1519626468),//开学时间
                 'is_bind'=>$student['is_bind'],
                 'user'=>[
                 'openid'=>$openId,

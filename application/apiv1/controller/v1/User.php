@@ -35,8 +35,8 @@ class User extends Controller
                 'openid'=>$openId,
                 'type'=>'学生',
                 'more'=>$student,
-            ]
-        ];
+                 ]
+            ];
         }else {
             return [
                 'status'=>200,

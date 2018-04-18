@@ -13,6 +13,11 @@ use think\Controller;
 
 class Money extends Controller
 {
+    /**
+     * @param $id
+     * @return array
+     * 一卡通接口
+     */
     public function getMoney($id) {
         $money = \app\apiv1\model\Money::getMoney($id);
         return [

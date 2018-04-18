@@ -15,7 +15,11 @@ use think\Controller;
 
 class Course extends Controller
 {
-
+    /**
+     * @param $uid
+     * @return array
+     * 获取学生课表的信息
+     */
     public function getCourse($uid) {
         $student = Student::where('uid','=',$uid)->find();
         $class_id = $student->ban_id;
@@ -44,7 +48,7 @@ class Course extends Controller
                 $lessons[$k][$m] = array($lessons[$k][$m]);
             }
         }
-        $date = $this->getDate(1504454400,time());
+        $date = $this->getDate(config('term.termData'),time());
         $data = [
             'status'=>200,
             'message'=>'ok',

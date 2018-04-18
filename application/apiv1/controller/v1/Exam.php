@@ -18,7 +18,7 @@ class Exam extends Controller
     /**
      * @param $id
      * @return array
-     * 根据用户的ID获取用户的课表信息
+     * 根据用户的ID获取用户的考试安排信息
      */
     public function getExam($id){
         $student = Student::where('id','=',$id)->find();

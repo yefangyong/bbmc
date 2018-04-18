@@ -13,6 +13,11 @@ use think\Controller;
 
 class Article extends Controller
 {
+    /**
+     * @param $type
+     * @return array
+     * 根据type来获取文章的数据
+     */
     public function getArticleByType($type) {
         $articles = \app\apiv1\model\Article::getArticleByType($type);
         $articles = $articles->toArray();
